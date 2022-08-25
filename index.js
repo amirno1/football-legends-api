@@ -6,9 +6,6 @@ const cheerio = require("cheerio");
 const app = express();
 
 const legends = [];
-app.get("/", (req, res) => {
-  res.json("Welcome to footbal legends API");
-});
 
 app.get("/legends", (req, res) => {
   axios
